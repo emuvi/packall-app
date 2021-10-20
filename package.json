@@ -10,9 +10,9 @@
   "author": "Éverton M. Vieira",
   "license": "LGPL-3.0-only",
   "dependencies": {
-    "qinpel-cps": "file:../../qinpel-cps"
+    "qinpel-cps": "file:../qinpel-cps"
   },
   "devDependencies": {
-    "qinpel-app": "file:../../qinpel-app"
+    "qinpel-app": "file:../qinpel-app"
   }
 }

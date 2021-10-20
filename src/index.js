@@ -5,7 +5,7 @@ var all_1 = require("qinpel-cps/all");
 var PackAll = (function () {
     function PackAll() {
         this.divBody = document.createElement("div");
-        this.chooser = new all_1.Chooser();
+        this.chooser = new all_1.Chooser(all_1.FilesNature.DIRECTORIES);
         this.chooser.install(this.divBody);
     }
     PackAll.prototype.install = function (on) {

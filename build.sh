@@ -1,3 +1,4 @@
 bash -v clean.sh
-tsc -p .
+npm install
+tsc -p tsconfig.json
 cp src/main.js main.js

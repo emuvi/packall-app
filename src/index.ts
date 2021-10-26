@@ -2,20 +2,17 @@ import { Qinpel } from "qinpel-app/types/qinpel"
 // @ts-ignore
 const qinpel = window.frameElement.qinpel as Qinpel;
 
-import { Chooser, FilesNature } from "qinpel-cps/all"
+import { QinLine, QinPath } from "qinpel-cps/all"
 
-class PackAll {
+class PackAll extends QinLine {
 
-    private divBody = document.createElement("div");
-    private chooser = new Chooser(FilesNature.DIRECTORIES);
+    private qinBody = new QinPath();
 
     public constructor() {
-        this.chooser.install(this.divBody);
+        super();
+        this.qinBody.install(this);
     }
-
-    public install(on: HTMLElement) {
-        on.appendChild(this.divBody);
-    }
+    
 }
 
-new PackAll().install(document.body);
+new PackAll().putAsBody();

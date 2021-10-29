@@ -1,16 +1,14 @@
-import { Qinpel } from "qinpel-app/types/qinpel"
-// @ts-ignore
-const qinpel = window.frameElement.qinpel as Qinpel;
+import { QinColumn, QinLine, QinPath } from "qinpel-cps"
 
-import { QinLine, QinPath } from "qinpel-cps/all"
+class PackAll extends QinColumn {
 
-class PackAll extends QinLine {
-
+    private qinLine = new QinLine();
     private qinBody = new QinPath();
 
     public constructor() {
         super();
-        this.qinBody.install(this);
+        this.qinLine.install(this);
+        this.qinBody.install(this.qinLine);
     }
     
 }

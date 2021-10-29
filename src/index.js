@@ -15,17 +15,18 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var qinpel = window.frameElement.qinpel;
-var all_1 = require("qinpel-cps/all");
+var qinpel_cps_1 = require("qinpel-cps");
 var PackAll = (function (_super) {
     __extends(PackAll, _super);
     function PackAll() {
         var _this = _super.call(this) || this;
-        _this.qinBody = new all_1.QinPath();
-        _this.qinBody.install(_this);
+        _this.qinLine = new qinpel_cps_1.QinLine();
+        _this.qinBody = new qinpel_cps_1.QinPath();
+        _this.qinLine.install(_this);
+        _this.qinBody.install(_this.qinLine);
         return _this;
     }
     return PackAll;
-}(all_1.QinLine));
+}(qinpel_cps_1.QinColumn));
 new PackAll().putAsBody();
 //# sourceMappingURL=index.js.map

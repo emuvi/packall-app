@@ -1,7 +1,7 @@
 import {
     QinColumn, QinField, QinLine, QinInteger, QinPath, QinBoolean, QinString
-} from "qinpel-cps"
-import { QinFilesNature } from "qinpel-res";
+} from "qinpel-cps/types/all"
+import { QinFilesNature } from "qinpel-res/types/all";
 
 class PackAll extends QinColumn {
 

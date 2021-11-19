@@ -2,7 +2,8 @@
   "name": "app",
   "version": "0.1.0",
   "description": "",
-  "main": "main.js",
+  "main": "./build/main.js",
+  "types": "./types",
   "scripts": {
     "start": "bash -v test.sh"
   },

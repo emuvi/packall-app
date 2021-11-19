@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "packall-app",
   "version": "0.1.0",
   "description": "",
   "main": "./build/main.js",

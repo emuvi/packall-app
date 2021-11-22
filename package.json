@@ -1,7 +1,7 @@
 {
-  "name": "packall-app",
+  "name": "packall-qap",
   "version": "0.1.0",
-  "description": "",
+  "description": "User interface for PackAll on the Qinpel application platform.",
   "main": "./build/main.js",
   "types": "./types/main.d.ts",
   "scripts": {

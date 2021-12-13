@@ -1,18 +1,19 @@
 {
-  "name": "packall-gui",
-  "version": "0.1.0",
-  "description": "Graphical user interface for PackAll on the Qinpel platform.",
-  "main": "./build/main.js",
-  "types": "./types/main.d.ts",
-  "scripts": {
-    "build": "bash -v build.sh",
-    "test-dsk": "bash -v test-dsk.sh"
-  },
-  "keywords": [],
-  "author": "Éverton M. Vieira",
-  "license": "LGPL-3.0-only",
-  "dependencies": {
-    "qinpel-cps": "file:../qinpel-cps",
-    "qinpel-res": "file:../qinpel-res"
-  }
+	"name": "packall-app",
+	"version": "0.1.0",
+	"description": "Graphical user interface for PackAll on the Qinpel platform.",
+	"main": "./build/main.js",
+	"types": "./types/main.d.ts",
+	"scripts": {
+		"build": "bash -v build.sh",
+		"test-dsk": "bash -v test-dsk.sh",
+		"test-srv": "bash -v test-srv.sh"
+	},
+	"keywords": [],
+	"author": "Éverton M. Vieira",
+	"license": "LGPL-3.0-only",
+	"dependencies": {
+		"qinpel-cps": "file:../qinpel-cps",
+		"qinpel-res": "file:../qinpel-res"
+	}
 }

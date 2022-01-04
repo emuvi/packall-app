@@ -1,4 +1,3 @@
-PackAll
-=======
+# PackAll
 
-Graphical user interface for PackAll on the Qinpel platform.
+PackallApp is an application of a graphical user interface for the Packall command on the Qinpel, the Quick Interface for Pointel platform.

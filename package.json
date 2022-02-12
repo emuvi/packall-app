@@ -1,7 +1,7 @@
 {
 	"name": "packall-app",
 	"version": "0.1.0",
-	"description": "PackallApp is an application of a graphical user interface for the Packall command on the Qinpel, the Quick Interface for Pointel platform.",
+	"description": "PackallApp is a Qinpel user application that interacts with the Packall program that eats all the files you feed and keeps them organized.",
 	"main": "./build/main.js",
 	"types": "./types/main.d.ts",
 	"keywords": [],

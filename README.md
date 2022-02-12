@@ -1,3 +1,4 @@
 # PackAll
 
-PackallApp is an application of a graphical user interface for the Packall command on the Qinpel, the Quick Interface for Pointel platform.
+PackallApp is a Qinpel user application that interacts with the Packall program that eats all the files you feed and keeps them organized.
+
